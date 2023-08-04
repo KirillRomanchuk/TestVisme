@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="SuiteAll" verbose="1">
+    <test name="TestAll">
+        <parameter name="errNoCorrectUserPassword" value="Invalid email/password!"></parameter>
+        <parameter name="errNoEmail" value="Email required!"></parameter>
+        <parameter name="errNoPassword" value="Password required!"></parameter>
+        <classes>
+            <class name="TestDisplayOfLoginButtonsWithThirdPartyCase"/>
+            <class name="TestNotFillEmailOrPasswordCase"/>
+            <class name="TestNotCorrectUserPasswordCase"/>
+            <class name="TestPositiveLoginCase"/>
+        </classes>
+    </test>
+</suite>
