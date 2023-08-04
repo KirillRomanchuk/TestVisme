@@ -8,7 +8,7 @@ and use maven for download all needed dependencies
 Open \TestVisme\src\main\resources\configs folder and duplicate "blank.properties"
 to \TestVisme\src\main\resources  and rename it to "config.properties"
 
-Open "config.properties" file and write your user login and password for git login
+Open "config.properties" file and write your user login and password
 #user example  login:password
 Open \TestVisme in terminal 
 
